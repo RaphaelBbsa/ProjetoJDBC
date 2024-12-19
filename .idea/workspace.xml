@@ -4,17 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7f728a2-6f6a-4f01-a3de-fbe236dec09e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rporto/factory/ConnectionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/rporto/factory/ConnectionFactoryTest.java" afterDir="false" />
+    <list default="true" id="a7f728a2-6f6a-4f01-a3de-fbe236dec09e" name="Changes" comment="Primeiro commit com a conexão pro banco sendo criada">
+      <change afterPath="$PROJECT_DIR$/src/main/java/anotacao/ColunaTabela.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/anotacao/Tabela.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/anotacao/TipoChave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rporto/dao/ClienteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rporto/dao/IClienteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rporto/dao/IProdutoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rporto/dao/ProdutoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rporto/domain/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rporto/domain/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rporto/domain/ProdutoQuantidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rporto/domain/Venda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -44,13 +48,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.ConnectionFactoryTest.connectionTest.executor": "Coverage",
     "JUnit.ConnectionFactoryTest.executor": "Run",
     "JUnit.ConnectionFactoryTest.testConnection.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/DiretórioSpring/CloneProfessorPEntender",
+    "last_opened_file_path": "C:/Users/rapha/IdeaProjects/ProjetoJDBC",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -121,6 +126,51 @@
       <option name="presentableId" value="Default" />
       <updated>1733422584162</updated>
     </task>
+    <task id="LOCAL-00001" summary="Primeiro commit com a conexão pro banco sendo criada">
+      <option name="closed" value="true" />
+      <created>1734023557301</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734023557301</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Primeiro commit com a conexão pro banco sendo criada">
+      <option name="closed" value="true" />
+      <created>1734024467972</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734024467972</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Primeiro commit com a conexão pro banco sendo criada">
+      <option name="closed" value="true" />
+      <created>1734024805853</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734024805853</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Primeiro commit com a conexão pro banco sendo criada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primeiro commit com a conexão pro banco sendo criada" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ProjetoJDBC$ConnectionFactoryTest_connectionTest.ic" NAME="ConnectionFactoryTest.connectionTest Coverage Results" MODIFIED="1734010717242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>br.com.rporto.factory.*</FILTER>
+    </SUITE>
   </component>
 </project>
